@@ -10,6 +10,7 @@ Additional libraries, other than those created by create-react-app, are listed b
 
 Semantic UI:
 Is a library used to improve css production, comes with cool styles
+
 documentation:
 https://semantic-ui.com/
 
