@@ -54,10 +54,6 @@ class App extends Component {
 
         setInterval(this.calculateFirePropagation, 100);
     }
-
-    next = () => {
-        this.calculateFirePropagation();
-    }
     
     calculateFirePropagation = async() => {
         for (let j = 0; j < fireColumns; j++) {
@@ -92,8 +88,6 @@ class App extends Component {
                     </tbody>
                 </table>
                 <button onClick={this.start}>Start</button>
-                a
-                <button onClick={this.next}>Next</button>
             </div>
         );
             
