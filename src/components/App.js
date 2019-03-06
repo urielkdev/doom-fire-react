@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import DoomTr from '../DoomTr';
+import DoomTr from './DoomTr';
 import DoomTd from './DoomTd';
 
 const fireRows = 40; // height
